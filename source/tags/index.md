@@ -1,14 +1,12 @@
-title: {{ title }}
-entitle: ''
-date: {{ date }}
+---
+title: 标签云
+date: 2017-02-04 15:37:12
 author: 小苏
-avatar: /images/seaBaby.ico
+avatar: /images/favicon.png
 authorLink: https://www.tangkunyin.com
 authorAbout: https://about.tangkunyin.com
 authorDesc: 一个写代码的「伪文人」
-categories: 前端
-tags: 
-keywords: 
-description: 
-photos: 
+layout: "tags"
 ---
+
+
