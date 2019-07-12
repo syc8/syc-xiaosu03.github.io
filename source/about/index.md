@@ -3,7 +3,7 @@ author: 小苏
 avatar: /images/favicon.png
 authorLink: https://www.tangkunyin.com
 authorAbout: https://about.tangkunyin.com
-authorDesc: 一个写代码的「伪文人」
+authorDesc: 在写bug的康庄大道上一骑绝尘
 date: 2017-02-07 13:23:07
 keywords: 关于说IT，说IT是什么
 description: 说IT是个什么鬼？来，这里给你答案。简言之，说IT是一个聚焦于技术和人文的原创IT博客。

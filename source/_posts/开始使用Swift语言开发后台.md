@@ -4,7 +4,7 @@ author: 小苏
 avatar: /images/favicon.png
 authorLink: 'https://www.tangkunyin.com'
 authorAbout: 'https://about.tangkunyin.com'
-authorDesc: 一个写代码的「伪文人」
+authorDesc: 在写bug的康庄大道上一骑绝尘
 categories: 后台
 timestamp: 1492851464
 date: 2017-04-22 16:57:44

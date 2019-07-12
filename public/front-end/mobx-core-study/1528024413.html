@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html class="no-js" lang="zh-CN">
-<head>
+<head><meta name="generator" content="Hexo 3.9.0">
     <!--[if lte IE 9]>
 <meta http-equiv="refresh" content="0;url=http://yoursite.com/warn.html">
 <![endif]-->
@@ -12,11 +12,11 @@
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
 <meta http-equiv="mobile-agent" content="format=html5; url=http://yoursite.com">
-<meta name="author" content="小苏00(https://baike.baidu.com/item/%E6%9D%B0%E6%A3%AE%C2%B7%E6%96%AF%E5%9D%A6%E6%A3%AE/10970382?fromtitle=%E6%9D%B0%E6%A3%AE%E6%96%AF%E5%9D%A6%E6%A3%AE&amp;fromid=11231745&amp;fr=aladdin)">
+<meta name="author" content="小苏(https://baike.baidu.com/item/%E6%9D%B0%E6%A3%AE%C2%B7%E6%96%AF%E5%9D%A6%E6%A3%AE/10970382?fromtitle=%E6%9D%B0%E6%A3%AE%E6%96%AF%E5%9D%A6%E6%A3%AE&amp;fromid=11231745&amp;fr=aladdin)">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/SimpleStyle.min.css">
 
-<link rel="shortcut icon" href="/images/seaBaby_01.ico">
+<link rel="shortcut icon" href="/images/favicon.ico">
 
 
 <title>mobx思想的实现原理 - su</title>
@@ -56,34 +56,22 @@
     <div class="cover-img"></div>
     <div class="cover-info">
         
-        <img class="avatar" width="72" src="/images/seaBaby.ico" alt="avatar"/>
+        <img class="avatar" width="72" src="/images/favicon.png" alt="avatar">
         
-        <h1 class="cover-siteName">su</h1>
-        <h3 class="cover-siteTitle">hello 好久不见</h3>
-        <p class="cover-siteDesc">一个关注技术与人文的IT博客</p>
+        <h1 class="cover-siteName">Su&#39;s blog</h1>
+        <h3 class="cover-siteTitle">好久不见</h3>
+        <p class="cover-siteDesc">来自一个极懒的前端程序员的、 bug＆踩坑血泪史。</p>
         <div class="cover-sns">
             
-            <div class="btn btn-telegram">
-                <a href="http://t.me/kunyintang" target="_blank" title="telegram" ref="friend">
-                    <i class="fa fa-telegram"></i>
-                </a>
-            </div>
-            
-            <div class="btn btn-instagram">
-                <a href="https://www.instagram.com/mtangsir/" target="_blank" title="instagram" ref="friend">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </div>
-            
-            <div class="btn btn-twitter">
-                <a href="https://twitter.com/tangkunyin" target="_blank" title="twitter" ref="friend">
-                    <i class="fa fa-twitter"></i>
-                </a>
-            </div>
-            
             <div class="btn btn-github">
-                <a href="https://github.com/tangkunyin" target="_blank" title="github" ref="friend">
+                <a href="https://github.com/syc-xiaosu03" target="_blank" title="github" ref="friend">
                     <i class="fa fa-github"></i>
+                </a>
+            </div>
+            
+            <div class="btn btn-weibo">
+                <a href="http://t.me/kunyintang" target="_blank" title="weibo" ref="friend">
+                    <i class="fa fa-weibo"></i>
                 </a>
             </div>
             
@@ -99,15 +87,15 @@
                     <a href="/categories/front-end" data-name="前端">前端</a>
                 </li>
             
-                <li class="">
+                <li class>
                     <a href="/categories/back-end" data-name="后台">后台</a>
                 </li>
             
-                <li class="">
+                <li class>
                     <a href="/categories/product-design" data-name="设计">设计</a>
                 </li>
             
-                <li class="">
+                <li class>
                     <a href="/categories/others" data-name="其他">其他</a>
                 </li>
             
@@ -115,14 +103,14 @@
         <li class="page-search">
     <form id="search" class="search-form">
         <label for="s" class="sr-only">请输入关键字</label>
-        <input class="search-field" type="text" name="s" class="text" placeholder="请输入关键字" />
+        <input class="search-field" type="text" name="s" placeholder="请输入关键字">
         <button type="submit" class="search-form-submit" title="搜索"><i class="fa fa-search"></i></button>
     </form>
     <div class="ins-search">
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词..."/>
+            <input type="text" class="ins-search-input" placeholder="请输入关键词...">
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -155,13 +143,13 @@
         <div class="post-header">
             <div class="post-author clearfix">
                 <a class="avatar fleft" href="https://www.tangkunyin.com" target="_blank">
-                    <img width="48" src="/images/favicon.png" alt="avatar"/>
+                    <img width="48" src="/images/favicon.png" alt="avatar">
                 </a>
                 <p><span class="label">作者</span>
                     <a href="https://about.tangkunyin.com" target="_blank">小苏</a>
                     <span title="最后编辑于2018-06-03">2018-06-03</span>
                 </p>
-                <p>一个写代码的「伪文人」</p>
+                <p>在写bug的康庄大道上一骑绝尘</p>
             </div>
             <h2 class="post-title">MobX思想的实现原理</h2>
             <div class="post-meta">
@@ -181,7 +169,7 @@
 <p>重点来了，第二个要存储的是最重要的部分，也就是所有监听！当任何对象被改变的时候，我们需要知道它每一个 key 对应着哪些监听（这些监听由 autoRun 注册），也就是，最终会存在多个对象，每个对象的每个 key 都可能与多个 autoRun 绑定，这样在更新某个 key 时，直接触发与其绑定的所有 autoRun 即可。</p>
 <p>代码如下：</p>
 <blockquote>
-<p>const observers = new WeakMap&lt;object, Map&lt;PropertyKey, Set<Observer>&gt;&gt;()</p>
+<p>const observers = new WeakMap&lt;object, Map&lt;PropertyKey, Set<observer>&gt;&gt;()</observer></p>
 </blockquote>
 <p>第三个存储结构就是待观察队列，为了使同一个调用栈多次赋值仅执行一次 autoRun，所有待执行的都会放在这个队列中，在下一时刻统一执行队列并清空，执行的时候，当前所有 autoRun 都是在同一时刻触发的，所以让相同的 autoRun 不用触发多次即可实现性能优化。</p>
 <blockquote>
@@ -197,9 +185,9 @@
 <p>上面的逻辑只是简单返回取值，并没有注册这一步，我们在 currentObserver 存在时才会给对象当前 key注册 autoRun，并且如果结果是对象，又不存在已有的代理，就调用自身 toObservable 再递归一遍，所以返回的对象一定是代理。</p>
 <p>registerObserver 函数的作用是将 targetObj -&gt; key -&gt; autoRun 这个链路关系存到 observers 对象中，当对象修改的时候，可以直接找到对应 key 的 autoRun。</p>
 <p>那么 currentObserver 是什么时候赋值的呢？首先，并不是访问到 get 就要注册 registerObserver，必须在 autoRun 里面的才符合要求，所以执行 autoRun 的时候就会将当前回调函数赋值给 currentObserver，保证了在 autoRun 函数内部所有监听对象的 get 拦截器都能访问到 currentObserver。以此类推，其他 autoRun 函数回调函数内部变量 get 拦截器中，currentObserver 也是对应的回调函数。</p>
-<p>代码如下：<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> dynamicObject = <span class="keyword">new</span> <span class="built_in">Proxy</span>(obj, &#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    get(target, key, receiver) &#123;</span><br><span class="line">        <span class="keyword">const</span> result = <span class="built_in">Reflect</span>.get(target, key, receiver)</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 如果取的值是对象，优先取代理对象</span></span><br><span class="line">        <span class="keyword">const</span> resultIsObject = <span class="keyword">typeof</span> result === <span class="string">'object'</span> &amp;&amp; result</span><br><span class="line">        <span class="keyword">const</span> existProxy = resultIsObject &amp;&amp; proxies.get(result)</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 将监听添加到这个 key 上</span></span><br><span class="line">        <span class="keyword">if</span> (currentObserver) &#123;</span><br><span class="line">            registerObserver(target, key)</span><br><span class="line">            <span class="keyword">if</span> (resultIsObject) &#123;</span><br><span class="line">                <span class="keyword">return</span> existProxy || toObservable(result)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> existProxy || result</span><br><span class="line">    &#125;),</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
+<p>代码如下：<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> dynamicObject = <span class="keyword">new</span> <span class="built_in">Proxy</span>(obj, &#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="keyword">get</span>(target, key, receiver) &#123;</span><br><span class="line">        <span class="keyword">const</span> result = <span class="built_in">Reflect</span>.get(target, key, receiver)</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 如果取的值是对象，优先取代理对象</span></span><br><span class="line">        <span class="keyword">const</span> resultIsObject = <span class="keyword">typeof</span> result === <span class="string">'object'</span> &amp;&amp; result</span><br><span class="line">        <span class="keyword">const</span> existProxy = resultIsObject &amp;&amp; proxies.get(result)</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 将监听添加到这个 key 上</span></span><br><span class="line">        <span class="keyword">if</span> (currentObserver) &#123;</span><br><span class="line">            registerObserver(target, key)</span><br><span class="line">            <span class="keyword">if</span> (resultIsObject) &#123;</span><br><span class="line">                <span class="keyword">return</span> existProxy || toObservable(result)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> existProxy || result</span><br><span class="line">    &#125;),</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
 <p>setter 过程中，如果对象产生了变动，就会触发 queueObservers 函数执行回调函数，这些回调都在 getter 中定义好了，只需要把当前对象，以及修改的 key 传过去，直接触发对应对象，当前 key 所注册的 autoRun 即可。</p>
-<p>代码如下：<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> dynamicObject = <span class="keyword">new</span> <span class="built_in">Proxy</span>(obj, &#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    set(target, key, value, receiver) &#123;</span><br><span class="line">        <span class="comment">// 如果改动了 length 属性，或者新值与旧值不同，触发可观察队列任务</span></span><br><span class="line">        <span class="keyword">if</span> (key === <span class="string">'length'</span> || value !== <span class="built_in">Reflect</span>.get(target, key, receiver)) &#123;</span><br><span class="line">            queueObservers&lt;T&gt;(target, key)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 如果新值是对象，优先取原始对象</span></span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">typeof</span> value === <span class="string">'object'</span> &amp;&amp; value) &#123;</span><br><span class="line">            value = value.$raw || value</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">Reflect</span>.set(target, key, value, receiver)</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
+<p>代码如下：<br><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> dynamicObject = <span class="keyword">new</span> <span class="built_in">Proxy</span>(obj, &#123;</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">    <span class="keyword">set</span>(target, key, value, receiver) &#123;</span><br><span class="line">        <span class="comment">// 如果改动了 length 属性，或者新值与旧值不同，触发可观察队列任务</span></span><br><span class="line">        <span class="keyword">if</span> (key === <span class="string">'length'</span> || value !== <span class="built_in">Reflect</span>.get(target, key, receiver)) &#123;</span><br><span class="line">            queueObservers&lt;T&gt;(target, key)</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="comment">// 如果新值是对象，优先取原始对象</span></span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">typeof</span> value === <span class="string">'object'</span> &amp;&amp; value) &#123;</span><br><span class="line">            value = value.$raw || value</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">Reflect</span>.set(target, key, value, receiver)</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">// ...</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
 <p>没错，主要逻辑已经全部说完了，新对象之所以可以检测到，是因为 proxy 的 get 会触发，这要多谢 proxy 的强大。</p>
 <p>可能有人问 Object.defineProperty 为什么不行，原因很简单，因为这个函数只能设置某个 key 的 gettersetter~。</p>
 <p>symbol proxy reflect 这三剑客能做的事还有很多很多，这仅仅是实现 Object.observe 而已，还有更强大的功能可以挖掘。</p>
@@ -299,14 +287,14 @@
     <footer class="footer">
     <div class="footer-inner">
         <p>
-            <a href="/about"  title="关于本站">关于本站</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/about" title="关于本站">关于本站</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
             <!-- 自定义链接 -->
-            <a href="/help" title="help" >急救中心</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
+            <a href="/help" title="help">急救中心</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
             <a href="/links" title="友情链接">友情链接</a>&nbsp;&nbsp<em>·</em>&nbsp;&nbsp
             <a href="/app" title="App下载">App下载</a>
         </p>
         <p>
-            本站点采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>，已建立<a href="/timeline" id="siteBuildingTime"></a>天<br/>
+            本站点采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>，已建立<a href="/timeline" id="siteBuildingTime"></a>天<br>
             ©2017 基于<a href="http://hexo.io" target="_blank">Hexo</a>搭建
             ，主题&nbsp<a href="https://github.com/tangkunyin/hexo-theme-jsimple" target="_blank">JSimple</a>
             ，作者<a href="https://www.tangkunyin.com" target="_blank">唐先森</a>

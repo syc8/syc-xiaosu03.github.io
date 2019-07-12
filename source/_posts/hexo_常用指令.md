@@ -1,7 +1,24 @@
 ---
-title: hexo之常用指令
+title: hexo常用指令
+entitle: 'hexo'
+author: 小苏
+avatar: /images/favicon.png
+authorLink: 'https://www.???name.com'
+authorAbout: 'https://about.???name.com'
+authorDesc: 在写bug的康庄大道上一骑绝尘
+categories: 前端
+timestamp: 1528030116
+date: 2018-09-06 17:10:35
+tags:
+    - 自用
+    - 针对hexo当前主题
+    - 主题:hexo-theme-jsimple
+keywords: 当前技术seo关键词
+description: 来自?时的笔记：对文章内容的简要概述
+photos:
+    # - /img/2018/15280267906540.jpg
 ---
-----
+
 ### hexo安装
   ```js
   npm install hexo -g   // 安装

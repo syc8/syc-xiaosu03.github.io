@@ -1,5 +1,5 @@
 # site name
-siteName: su
+siteName: Su's blog
 shortName:  小苏
 
 
@@ -7,10 +7,10 @@ shortName:  小苏
 fullHttps: true
 
 # favicon
-favicon: /images/seaBaby_01.ico
+favicon: /images/favicon.ico
 # unique avatar
 avatarShow: true
-avatarImage: /images/seaBaby.ico
+avatarImage: /images/favicon.png
 
 # Home page sort type: -1: newer first，1: older first.
 homePageSortType: -1
@@ -41,15 +41,29 @@ leftPagesMenu:
 
 
 # cover info config
-coverTitle: hello 好久不见
-coverDescription: 一个关注技术与人文的IT博客
+coverTitle: 好久不见
+coverDescription: 来自一个极懒的前端程序员的、 bug＆踩坑血泪史。
+
+# SNS Share Switch
+# sns_share:  #用于定义分享菜单中的项目， false 的项将不会显示在分享菜单中。
+#     twitter: true
+#     facebook: true
+#     googleplus: true
+#     weibo: true
+#     linkedin: true
+#     qq: true
+#     telegram: true
+#     jianshu: true
 
 # sns url
 sns:
-  telegram: http://t.me/kunyintang
-  instagram: https://www.instagram.com/mtangsir/
-  twitter: https://twitter.com/tangkunyin
-  github: https://github.com/tangkunyin
+  # telegram: ???
+  # instagram: ???
+  # twitter: ???
+  # jianshu: ???
+  github: https://github.com/syc-xiaosu03
+  weibo: http://t.me/kunyintang
+
 
 # your article copyright or content declare
 postDeclare: 本文代表个人观点，内容仅供参考。若有不恰当之处，望不吝赐教！
