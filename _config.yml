@@ -54,9 +54,11 @@ highlight:
 default_category: 前端
 category_map:
    前端: front-end
-   后台: back-end
-   设计: product-design
-   其他: others
+   开发工具: dev-tools
+   其他(code): others
+   myLife: myLife
+   原作: old-backups
+
 tag_map:
   iOS: iOS
   hexo: hexo
@@ -71,6 +73,7 @@ tag_map:
   Mac必备工具: MacTools
   跨平台: CrossPlatform
   黑科技: CoolTech
+  工具: tools
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -98,6 +101,7 @@ theme: hexo-theme-jsimple
 deploy:
   type: git
   repo: git@github.com:syc-xiaosu03/syc-xiaosu03.github.io.git
+  branch: master
 
 # deploy:
 # - type: git

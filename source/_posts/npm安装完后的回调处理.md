@@ -5,7 +5,7 @@ avatar: /images/favicon.png
 authorLink: 'https://www.tangkunyin.com'
 authorAbout: 'https://about.tangkunyin.com'
 authorDesc: 在写bug的康庄大道上一骑绝尘
-categories: 其他
+categories: 前端
 timestamp: 1528025660
 date: 2018-06-03 19:34:20
 tags:
