@@ -1,8 +1,8 @@
 title: 为何建站 && 为何写作
 author: 小苏
 avatar: /images/favicon.png
-authorLink: https://www.tangkunyin.com
-authorAbout: https://about.tangkunyin.com
+authorLink: https://www.???.com
+authorAbout: https://about.???.com
 authorDesc: 在写bug的康庄大道上一骑绝尘
 date: 2017-02-07 13:23:07
 keywords: 关于说IT，说IT是什么

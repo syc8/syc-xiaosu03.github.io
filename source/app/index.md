@@ -1,8 +1,8 @@
 title: 移动互联网？
 author: 小苏
 avatar: /images/favicon.png
-authorLink: https://www.tangkunyin.com
-authorAbout: https://about.tangkunyin.com
+authorLink: https://www.???.com
+authorAbout: https://about.???.com
 authorDesc: 在写bug的康庄大道上一骑绝尘
 date: 2017-03-18 19:56:20
 keywords:

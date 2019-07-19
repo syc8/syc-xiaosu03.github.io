@@ -1,8 +1,8 @@
 title: QA - 帮助那个中心...
 author: 小苏
 avatar: /images/favicon.png
-authorLink: https://www.tangkunyin.com
-authorAbout: https://about.tangkunyin.com
+authorLink: https://www.???.com
+authorAbout: https://about.???.com
 authorDesc: 在写bug的康庄大道上一骑绝尘
 date: 2017-03-29 18:49:38
 keywords: help，qa，帮助中心，站内帮助

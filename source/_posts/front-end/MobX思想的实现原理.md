@@ -2,8 +2,8 @@ title: MobX思想的实现原理
 entitle: 'mobx-core-study'
 author: 小苏
 avatar: /images/favicon.png
-authorLink: 'https://www.tangkunyin.com'
-authorAbout: 'https://about.tangkunyin.com'
+authorLink: 'https://www.???.com'
+authorAbout: 'https://about.???.com'
 authorDesc: 在写bug的康庄大道上一骑绝尘
 categories: 前端
 timestamp: 1528024413

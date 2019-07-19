@@ -2,8 +2,8 @@ title: 创建ReactNative项目的优雅方式
 entitle: 'create-rn-in-better-way'
 author: 小苏
 avatar: /images/favicon.png
-authorLink: 'https://www.tangkunyin.com'
-authorAbout: 'https://about.tangkunyin.com'
+authorLink: 'https://www.???.com'
+authorAbout: 'https://about.???.com'
 authorDesc: 在写bug的康庄大道上一骑绝尘
 categories: 前端
 timestamp: 1528026020

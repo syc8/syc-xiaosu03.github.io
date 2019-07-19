@@ -2,8 +2,8 @@ title: 属性变量（property）与成员变量的区别
 entitle: 'property-and-memberVar-in-iOS'
 author: 小苏
 avatar: /images/favicon.png
-authorLink: 'https://www.tangkunyin.com'
-authorAbout: 'https://about.tangkunyin.com'
+authorLink: 'https://www.???.com'
+authorAbout: 'https://about.???.com'
 authorDesc: 在写bug的康庄大道上一骑绝尘
 categories: 原作
 timestamp: 1528011307
