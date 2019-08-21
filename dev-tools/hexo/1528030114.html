@@ -157,12 +157,20 @@
             </div>
             <h2 class="post-title">Hexo 搭建之踩坑</h2>
             <div class="post-meta">
-                本文总共1184个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
+                本文总共1320个字 | 您是第<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>位看到它们的小伙伴
             </div>
         </div>
         <div class="post-content markdown-body">
             <h2 id="一、hexo项目配置问题"><a href="#一、hexo项目配置问题" class="headerlink" title="一、hexo项目配置问题"></a>一、hexo项目配置问题</h2><h3 id="1-git上新建repository-存储库-设置名称时注意"><a href="#1-git上新建repository-存储库-设置名称时注意" class="headerlink" title="1. git上新建repository(存储库)设置名称时注意!"></a>1. git上新建repository(存储库)设置名称时注意!</h3><p><img src="/img/2019/repository_name.webp" alt="嵌入图片地址示例"></p>
 <h3 id="2-全局-config-yml配置注意！"><a href="#2-全局-config-yml配置注意！" class="headerlink" title="2. 全局_config.yml配置注意！"></a>2. 全局_config.yml配置注意！</h3><p><img src="/img/2019/hexo_05.png" alt="嵌入图片地址示例"></p>
+<h3 id="3-hexo-d部署时报错"><a href="#3-hexo-d部署时报错" class="headerlink" title="3. hexo d部署时报错"></a>3. hexo d部署时报错</h3><p>错误提示: </p>
+<blockquote>
+<p>FATAL Something’s wrong. Maybe you can find the solution here: <a href="https://hexo.io/docs/troubleshooting.html">https://hexo.io/docs/troubleshooting.html</a><br><img src="/img/2019/hexo_07.png" alt="嵌入图片地址示例"></p>
+</blockquote>
+<p>原因: </p>
+<blockquote>
+<p><img src="/img/2019/hexo_06.png" alt="_config.yml中配置"></p>
+</blockquote>
 <h2 id="二、文章发布问题"><a href="#二、文章发布问题" class="headerlink" title="二、文章发布问题"></a>二、文章发布问题</h2><h3 id="1-文档基础参数"><a href="#1-文档基础参数" class="headerlink" title="1. 文档基础参数"></a>1. 文档基础参数</h3><figure class="highlight"><table><tr><td class="code"><pre><span class="line">title: 发文模版(文章名称)</span><br><span class="line">entitle: <span class="string">'这个是当前文章上级目录名称, 注意!: 记得加引号'</span></span><br><span class="line">author: 作者名称</span><br><span class="line">avatar: <span class="regexp">/images/</span>作者头像.png</span><br><span class="line">authorLink: <span class="string">'https://www.???name.com'</span></span><br><span class="line">authorAbout: <span class="string">'https://about.???name.com'</span></span><br><span class="line">authorDesc: 在写bug的康庄大道上一骑绝尘</span><br><span class="line">categories: 所属导航分类名称</span><br><span class="line">timestamp: <span class="number">1528030114</span>  <span class="comment">// 时间戳: 其具有唯一性, 是当前文档生成html后的文件名称!!!;</span></span><br><span class="line">date: <span class="number">2018</span><span class="number">-06</span><span class="number">-03</span> <span class="number">20</span>:<span class="number">48</span>:<span class="number">34</span>  <span class="comment">// 发布时间 可自定义</span></span><br><span class="line">tags:</span><br><span class="line">    - 具有标签属性<span class="number">1</span>!</span><br><span class="line">    - 具有标签属性<span class="number">2</span>!</span><br><span class="line">    - 具有标签属性<span class="number">3</span>!</span><br><span class="line">keywords: 当前技术seo关键词</span><br><span class="line">description: 来自?时的笔记：对文章内容的简要概述</span><br><span class="line">photos:</span><br><span class="line">    # - /img/2018/15280267906540.jpg</span><br></pre></td></tr></table></figure>
 <h3 id="2-发布带图片博客"><a href="#2-发布带图片博客" class="headerlink" title="2. 发布带图片博客"></a>2. 发布带图片博客</h3><h4 id="2-1-本主题下方法"><a href="#2-1-本主题下方法" class="headerlink" title="2-1. 本主题下方法:"></a>2-1. 本主题下方法:</h4><blockquote>
 <p>md文档中写法:   <code>![嵌入图片](/img/2018/图片地址.jpg)</code><br><img src="/img/2019/imgLink.png" alt="嵌入图片地址示例"></p>
