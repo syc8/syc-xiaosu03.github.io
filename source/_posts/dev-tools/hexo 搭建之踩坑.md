@@ -25,6 +25,14 @@ photos:
 ### 2. 全局_config.yml配置注意！
 ![嵌入图片地址示例](/img/2019/hexo_05.png)
 
+### 3. hexo d部署时报错
+错误提示: 
+> FATAL Something's wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html
+> ![嵌入图片地址示例](/img/2019/hexo_07.png)
+
+原因: 
+> ![_config.yml中配置](/img/2019/hexo_06.png)
+
 
 ## 二、文章发布问题
 

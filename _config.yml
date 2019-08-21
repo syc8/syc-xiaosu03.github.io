@@ -99,8 +99,8 @@ theme: hexo-theme-jsimple
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:syc-xiaosu03/syc-xiaosu03.github.io.git
+  type:  git
+  repo:  git@github.com:syc-xiaosu03/syc-xiaosu03.github.io.git
   branch: master
 
 # deploy:
